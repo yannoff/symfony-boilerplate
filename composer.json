@@ -1,0 +1,7 @@
+{
+    "name": "yannoff/symfony-boilerplate",
+    "type": "project",
+    "license": "MIT",
+    "description": "A skeleton to start a new Symfony website",
+    "require": {}
+}
