@@ -3,7 +3,7 @@
 ## Usage
 
 ```
-composer create-project yannoff/symfony-boilerplate:dev-<version>
+composer create-project yannoff/symfony-boilerplate:dev-4.4-lts
 ```
 
 _or_
@@ -15,7 +15,7 @@ docker run --rm -it \
     -v $PWD:/src \
     -v $HOME/.composer:/.composer \
     yannoff/php-fpm:8.0 \
-    composer create-project yannoff/symfony-boilerplate:dev-<version>
+    composer create-project yannoff/symfony-boilerplate:dev-4.4-lts
 ```
 
 ## Available versions
