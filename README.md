@@ -6,6 +6,18 @@
 composer create-project yannoff/symfony-boilerplate:dev-<version>
 ```
 
+_or_
+
+```
+docker run --rm -it \
+    -u $UID:$GID \
+    -w /src \
+    -v $PWD:/src \
+    -v $HOME/.composer:/.composer \
+    yannoff/php-fpm:8.0 \
+    composer create-project yannoff/symfony-boilerplate:dev-<version>
+```
+
 ## Available versions
 
 - [6.x-dev](https://github.com/yannoff/symfony-boilerplate/tree/6.x-dev) The latest edge version
